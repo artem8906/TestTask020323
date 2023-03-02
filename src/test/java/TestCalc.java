@@ -26,7 +26,7 @@ public class TestCalc {
         assertEquals(2 + 5 + 100, new Calculator("2 100 5 300").getResult());
     }
 
-    //
+
     @Test
     public void differentDilimeterTest() {
         assertEquals(0 + 5 + 9 + 33, new Calculator("0,5,9,33").getResult());

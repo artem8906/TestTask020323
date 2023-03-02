@@ -36,7 +36,7 @@ public class Calculator {
 
     //getter for result. Calculation start here
     public int getResult() {
-        handler(); //result assigns here if value for calculation is valid
+        handler(); //result is assign here if value for calculation is valid and return
         return result;
     }
 
@@ -67,7 +67,6 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return "value for calculation='" + valueForCalc + '\'' +
-                ", result=" + result;
+        return "value for calculation='" + valueForCalc + '\'' + ", result=" + result;
     }
 }

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c7e2c8c-050a-4e5b-abcc-8fe0739a1e59" name="Changes" comment="git ignore add">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestCalc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestCalc.class" afterDir="false" />
-    </list>
+    <list default="true" id="9c7e2c8c-050a-4e5b-abcc-8fe0739a1e59" name="Changes" comment="redone with OOP" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +23,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2MQ5aPwfu6vIB1BXjO4eYQm8Evu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,12 +38,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677741689582</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redone with OOP">
+      <created>1677759068445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677759068446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +181,7 @@
     <MESSAGE value="git ignore update" />
     <MESSAGE value="task done" />
     <MESSAGE value="git ignore add" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore add" />
+    <MESSAGE value="redone with OOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="redone with OOP" />
   </component>
 </project>
