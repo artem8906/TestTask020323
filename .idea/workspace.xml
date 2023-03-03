@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c7e2c8c-050a-4e5b-abcc-8fe0739a1e59" name="Changes" comment="redone with OOP" />
+    <list default="true" id="9c7e2c8c-050a-4e5b-abcc-8fe0739a1e59" name="Changes" comment="redone with OOP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCalc.handlerTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="calc" />
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TestCalc" />
         <item itemvalue="JUnit.TestCalc.handlerTest" />
         <item itemvalue="JUnit.TestCalc.differentDilimeterTest" />
         <item itemvalue="JUnit.TestCalc.ignoreGreaterThan100Test" />
-        <item itemvalue="JUnit.TestCalc" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

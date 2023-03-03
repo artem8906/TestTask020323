@@ -8,6 +8,7 @@ package org.example;
 //        5. ignores numbers greater than 100
 //        Java SE (any version) and JUnit (any version) are the only libraries allowed.
 
+
 public class Calculator {
     //value for calculation
     private String valueForCalc;
@@ -34,9 +35,16 @@ public class Calculator {
         this.valueForCalc = valueForCalc;
     }
 
-    //getter for result. Calculation start here
+
+    //getter for result. Possible Exceptions catch here. Calculation start here
     public int getResult() {
-        handler(); //result is assign here if value for calculation is valid and return
+        try {
+            result = plus();
+        } catch (NumberFormatException e) {
+            System.out.println("Input value is not a number");
+        } catch (IllegalArgumentException e) {
+            System.out.println("Negative numbers don't support");
+        }
         return result;
     }
 
@@ -52,17 +60,6 @@ public class Calculator {
             sum += a;
         }
         return sum;
-    }
-
-    //handler of Exceptions
-    private void handler() {
-        try {
-            result = plus();
-        } catch (NumberFormatException e) {
-            System.out.println("Input value is not a number");
-        } catch (IllegalArgumentException e) {
-            System.out.println("Negative numbers don't support");
-        }
     }
 
     @Override
